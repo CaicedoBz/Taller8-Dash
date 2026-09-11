@@ -1,0 +1,9 @@
+# --- Artefactos de ejecucion que NO deben viajar en el repo ---
+# __pycache__/ : bytecode compilado, se regenera solo
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+# *.log : registros que escribe loguru al correr el tablero
+*.log
